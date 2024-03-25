@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.header_options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.7rem;
+}
+
+.header_options > .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0.5rem 0;
+
+    border-bottom: 2px solid transparent; /* Ensure initial state has a border */
+    transition: border-bottom 0.3s ease; /* Smooth transition effect */
+}
+
+.header_options > .box:hover {
+    border-bottom: 2px solid black; /* Add black border at the bottom on hover */
+   
+}
+
+.header_options > .box:hover .home_icon{
+    color: black;
+}
+
+.header_options > .box:hover .network_icon{
+    color: black;
+}
+
+.header_options > .box:hover .work_icon{
+    color: black;
+}
+
+.header_options > .box:hover .message_icon{
+    color: black;
+}
+
+.header_options > .box:hover .notification_icon{
+    color: black;
+}
+
+.header_options > .box > .home_icon{
+    font-size: 1.8rem;
+    color: gray;
+    cursor: pointer;
+    transition: 0.17s ease-in-out;
+}
+
+.header_options > .box > .network_icon{
+    font-size: 1.8rem;
+    color: gray;
+    cursor: pointer;
+    transition: 0.17s ease-in-out;
+}
+
+.header_options > .box > .work_icon{
+    font-size: 1.8rem;
+    color: gray;
+    cursor: pointer;
+    transition: 0.17s ease-in-out;
+}
+
+.header_options > .box > .message_icon{
+    font-size: 1.8rem;
+    color: gray;
+    cursor: pointer;
+    transition: 0.17s ease-in-out;
+}
+
+.header_options > .box > .notification_icon{
+    font-size: 1.8rem;
+    color: gray;
+    cursor: pointer;
+    transition: 0.17s ease-in-out;
+}
+
+.header_options > .box > span{
+    font-size: 1rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
