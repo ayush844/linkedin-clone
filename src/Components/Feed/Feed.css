@@ -1,0 +1,12 @@
+.feed-section{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+
+    align-items: center;
+}
+
+.feed-section .divider{
+    width: 80%;
+    border-bottom: 1px solid black;
+}

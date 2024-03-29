@@ -1,6 +1,5 @@
 import React from 'react'
 import './LeftSidebar.css'
-import { Avatar } from '@mui/material'
 
 const LeftSidebar = () => {
 
@@ -18,7 +17,9 @@ const LeftSidebar = () => {
     <div className="leftSidebar">
         <div className="sidebar_top">
             <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="cover" />
-            <Avatar className='sidebar_avatar'/>
+            <div className="sidebar_avatar_div">
+                <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  alt="avatar" />
+            </div>
             <h2>Ayush Sharma</h2>
             <h4>Java programmer || DSA || full stack developer || let's connect</h4>
         </div>
