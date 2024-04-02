@@ -1,0 +1,25 @@
+.reactOptionBox{
+    border-top: 1px solid lightgray;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0.5rem 0rem;
+}
+
+.reactOptionBox .option{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.4rem;
+
+    padding: 0.5rem 1.3rem;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.reactOptionBox .option:hover{
+    background-color: whitesmoke;
+    
+}

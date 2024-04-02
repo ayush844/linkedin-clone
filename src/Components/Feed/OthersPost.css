@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 75%;
     height: fit-content;
-    padding: 1rem 1.5rem;
+    padding: 2rem 1.5rem;
 
     border: 1px solid lightgray;
     border-radius: 10px;
@@ -56,6 +56,10 @@
     height: 100%;
     border-radius: inherit;
     object-fit: cover;
+}
+
+.othersPost .postContent{
+    overflow-wrap: anywhere;
 }
 
 .othersPost .postContent p{
