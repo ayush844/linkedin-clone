@@ -10,4 +10,6 @@
 .app_body{
     display: flex;
     width: 100vw;
+
+    margin-top: 3rem;
 }

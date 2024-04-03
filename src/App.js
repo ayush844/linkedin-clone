@@ -4,6 +4,7 @@ import './App.css';
 import Header from './Components/Header/Header';
 import LeftSidebar from './Components/Sidebar/LeftSidebar';
 import Feed from './Components/Feed/Feed';
+import NewsSidebar from './Components/Sidebar/NewsSidebar';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className="app_body">
         <LeftSidebar />
         <Feed />
+        <NewsSidebar />
       </div>
     </div>
   );
