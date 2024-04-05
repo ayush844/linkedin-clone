@@ -38,40 +38,13 @@
     color: black;
 }
 
-.header_options > .headerOptionLink > .box > .home_icon{
+.header_options > .headerOptionLink > .box > .icon{
     font-size: 1.8rem;
     color: gray;
     cursor: pointer;
     transition: 0.17s ease-in-out;
 }
 
-.header_options > .headerOptionLink > .box > .network_icon{
-    font-size: 1.8rem;
-    color: gray;
-    cursor: pointer;
-    transition: 0.17s ease-in-out;
-}
-
-.header_options > .headerOptionLink > .box > .work_icon{
-    font-size: 1.8rem;
-    color: gray;
-    cursor: pointer;
-    transition: 0.17s ease-in-out;
-}
-
-.header_options > .headerOptionLink > .box > .message_icon{
-    font-size: 1.8rem;
-    color: gray;
-    cursor: pointer;
-    transition: 0.17s ease-in-out;
-}
-
-.header_options > .headerOptionLink > .box > .notification_icon{
-    font-size: 1.8rem;
-    color: gray;
-    cursor: pointer;
-    transition: 0.17s ease-in-out;
-}
 
 .header_options > .headerOptionLink > .box > span{
     font-size: 0.8rem;

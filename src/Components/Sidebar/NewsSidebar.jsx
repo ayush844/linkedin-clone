@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './NewsSidebar.css'
 
 const NewsSidebar = () => {
@@ -12,7 +12,12 @@ const NewsSidebar = () => {
     await fetch(`https://newsapi.org/v2/everything?q=jobs&sortBy=publishedAt&apiKey=${APIkey}`).then((res) => res.json()).then((data) => setNews(data.articles));
   }
 
-  getNews();
+
+  useEffect(()=>{
+    getNews();
+  }, [])
+
+
 
   return (
     <div className='rightSidebar'>

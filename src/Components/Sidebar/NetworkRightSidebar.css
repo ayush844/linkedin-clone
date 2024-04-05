@@ -1,0 +1,32 @@
+.networkRight{
+    width: -webkit-fill-available;
+    margin-top: 3rem;
+    background: white;
+    margin-right: 3rem;
+
+    border-radius: 10px;
+
+    padding: 2rem 1rem;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 2rem;
+
+}
+
+.networkRight > h3{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+
+.networkRight > .peopleBox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}

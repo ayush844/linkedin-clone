@@ -1,0 +1,124 @@
+.peopleCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: 15rem;
+
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: white;
+    padding: 0;
+    padding-bottom: 10px;
+
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+
+    transition: 0.2s ease-in-out;
+}
+
+.peopleCard:hover{
+    border: 1px solid gray;
+}
+
+
+.peopleCard > img{
+    margin-bottom: -60px;
+    width: 100%;
+    height: 5rem;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+.peopleCard > .peopleCardAvatar{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    overflow: hidden;
+
+    margin-bottom: 1rem;
+    
+}
+
+
+.peopleCard > .peopleCardAvatar > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit; 
+}
+
+
+.peopleCard > .peopleCardInfo{
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.peopleCard > .peopleCardInfo > h2{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+
+.peopleCard > .peopleCardInfo > .peopleCardInfoDescription{
+    width: 90%; 
+    height: auto; 
+    overflow: hidden;
+    position: relative;
+  
+}
+
+.peopleCard > .peopleCardInfo > .peopleCardInfoDescription > p {
+    margin: 0; 
+    display: -webkit-box;
+    display: -moz-box; 
+    -webkit-line-clamp: 2; 
+    -moz-box-lines: 2; 
+    -webkit-box-orient: vertical; 
+    -moz-box-orient: vertical; 
+    overflow: hidden; 
+  }
+
+.peopleCard > button{
+    background-color: transparent;
+    padding: 0.7rem 1rem;
+    font-size: 1.1rem;
+
+    border-radius: 1.6rem;
+
+    border-top: none;
+    border-bottom: none;
+
+    border: 1px solid #3468C0;
+
+    
+
+    color: #3468C0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    transition: 0.3s ease-in-out;
+
+    cursor: pointer;
+}
+
+.peopleCard > button:hover{
+    background-color: #DFF5FF;
+}

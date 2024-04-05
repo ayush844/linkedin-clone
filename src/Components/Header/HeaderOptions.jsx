@@ -15,35 +15,35 @@ const HeaderOptions = () => {
     <div className='header_options'>
         <NavLink to='/' className={({isActive})=>`headerOptionLink ${isActive ? "activeHeaderOptionLink":""}`}>
           <div className="box">
-            <HomeIcon className='home_icon icon' />
+            <HomeIcon className='icon' />
             <span style={{textDecoration: 'none'}}>Home</span>
           </div>
         </NavLink>  
 
         <NavLink to='/networks' className={({isActive})=>`headerOptionLink ${isActive ? "activeHeaderOptionLink":""}`}>
           <div className="box">
-            <PeopleAltIcon className='network_icon icon'/>
+            <PeopleAltIcon className='icon'/>
             <span>My Network</span>
           </div>
         </NavLink>  
 
         <NavLink to='/jobs' className={({isActive})=>`headerOptionLink ${isActive ? "activeHeaderOptionLink":""}`}>
           <div className="box">
-            <WorkIcon className='work_icon icon'/>
+            <WorkIcon className='icon'/>
             <span>Jobs</span>
           </div>
         </NavLink>  
 
         <NavLink to='/messages' className={({isActive})=>`headerOptionLink ${isActive ? "activeHeaderOptionLink":""}`}>
           <div className="box">
-            <MessageIcon className='message_icon icon' />
+            <MessageIcon className='icon' />
             <span>Messaging</span>
           </div>
         </NavLink>
 
         <NavLink to='/notification' className={({isActive})=>`headerOptionLink ${isActive ? "activeHeaderOptionLink":""}`}>
           <div className="box">
-            <NotificationsIcon className='notification_icon icon' />
+            <NotificationsIcon className='icon' />
             <span>Notifications</span>
           </div>
         </NavLink>  

@@ -1,0 +1,70 @@
+.networkLeft{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 1.5rem;
+    background-color: white;
+    border: 1px solid lightgray;
+
+    width: 20vw;
+
+    height: fit-content;
+
+    position: sticky;
+    /* top: 10rem;
+    left: 5rem; */
+
+    align-items: flex-start;
+    justify-content: center;
+
+    border-radius: 10px;
+
+    gap: 1.8rem;
+
+    margin-top: 3rem;
+    margin-left: 5rem;
+
+    margin-right: 5rem;
+
+}
+
+
+.networkLeft > h3{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.networkLeft > .networkLeftConnectionBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    cursor: pointer;
+
+    transition: 0.2s ease-in-out;
+    padding: 1rem 0.5rem;
+
+    border-radius: 10px;
+    
+}
+
+.networkLeft > .networkLeftConnectionBox:hover{
+    background-color: whitesmoke;
+}
+
+.networkLeft > .networkLeftConnectionBox > .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    color: gray;
+}
+
+.networkLeft > .networkLeftConnectionBox > .text > span{
+    font-size: 1.2rem;
+}
+
+.networkLeft > .networkLeftConnectionBox > span{
+    font-size: 1.2rem;
+    color: gray;
+}
