@@ -12,6 +12,7 @@ import MyNetworks from './Pages/MyNetworks';
 import Jobs from './Pages/Jobs';
 import Messages from './Pages/Messages';
 import Notification from './Pages/Notification';
+import MyConnections from './Pages/MyConnections';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
@@ -22,6 +23,7 @@ const router = createBrowserRouter(
     <Route path='/' element={<Layout />}>
       <Route path='' element={<Home />}/>
       <Route path='networks' element={<MyNetworks />}/>
+      <Route path='networks/myConnections' element={<MyConnections />}/>
       <Route path='jobs' element={<Jobs />}/>
       <Route path='messages' element={<Messages />}/>
       <Route path='notification' element={<Notification />}/>
