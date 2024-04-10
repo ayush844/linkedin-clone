@@ -1,0 +1,98 @@
+.jobLeftSection{
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+    width: 20vw;
+
+    height: fit-content;
+
+    position: sticky;
+    top: 5rem;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+
+    gap: 1.8rem;
+
+    margin-top: 3rem;
+    margin-left: 5rem;
+
+    margin-right: 5rem;
+
+}
+
+
+.jobLeftSection > .jobLeft{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem 2rem 2rem;
+    gap: 1rem;
+
+    width: 70%;
+
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+
+    align-items: start;
+    justify-content: flex-start;
+}
+
+.jobLeftSection > .jobLeft > a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.jobLeftSection > .jobLeft > a > .jobLeftOptions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    font-size: 1.3rem;
+}
+
+.jobLeftSection > .jobLeft > a > .jobLeftOptions > span{
+    font-weight: 500;
+}
+
+.jobLeftSection > button{
+    background-color: transparent;
+    padding: 0.7rem 2rem;
+    font-size: 1.1rem;
+
+    border-radius: 1.6rem;
+
+    border-top: none;
+    border-bottom: none;
+
+    border: 1px solid #3468C0;
+
+    
+
+    color: #3468C0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    transition: 0.2s ease-in-out;
+
+    cursor: pointer;
+
+    width: 16vw;
+}
+
+.jobLeftSection > button:hover{
+    background-color: #DFF5FF;
+    
+}
+
