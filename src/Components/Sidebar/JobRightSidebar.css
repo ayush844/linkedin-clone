@@ -1,0 +1,27 @@
+.jobRightSidebar{
+    width: -webkit-fill-available;
+    margin-top: 3rem;
+    background: white;
+    margin-right: 3rem;
+    border-radius: 10px;
+    padding: 2rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    display: flex;
+    
+}
+
+.jobRightSidebar > h3{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.jobRightSidebar > .jobBox{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
