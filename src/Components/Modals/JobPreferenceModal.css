@@ -1,0 +1,146 @@
+.jobPreferenceModal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-attachment: fixed;
+    backdrop-filter: blur(4px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.jobPreferenceModal > .jobPreferenceModalBox{
+    background-color: white;
+    width: 40rem;
+    height: fit-content;
+
+    padding: 1.3rem 1rem;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.jobPreferenceModal > .jobPreferenceModalBox > .boxTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+
+.jobPreferenceModal > .jobPreferenceModalBox > .boxTop > span{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.jobPreferenceModal > .jobPreferenceModalBox > .boxTop > .closeIconDiv{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    transition: 0.2s ease-in-out;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.jobPreferenceModal > .jobPreferenceModalBox > .boxTop > .closeIconDiv:hover{
+    background-color: whitesmoke;
+}
+
+.jobPreferenceModal > .jobPreferenceModalBox > .boxTop > .closeIconDiv > .closeIcon{
+    transform: scale(1.4);
+}
+
+
+
+.jobPreferenceModal > .jobPreferenceModalBox > .boxMid{
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    font-weight: 500;
+}
+
+
+.jobPreferenceModal > .jobPreferenceModalBox > .boxMid > .targetIcon{
+    transform: scale(1.7);
+}  
+
+
+.jobPreferenceModal > .jobPreferenceModalBox > .boxBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    padding-bottom: 1rem;
+}
+
+.jobPreferenceModal > .jobPreferenceModalBox > .boxBottom > span{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+
+.jobPreferenceModal > .jobPreferenceModalBox > .boxBottom > .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+  
+.jobPreferenceModal > .jobPreferenceModalBox > .boxBottom > .switch > input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.jobPreferenceModal > .jobPreferenceModalBox > .boxBottom > .switch > .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .jobPreferenceModal > .jobPreferenceModalBox > .boxBottom > .switch > .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+.jobPreferenceModal > .jobPreferenceModalBox > .boxBottom > .switch > input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+.jobPreferenceModal > .jobPreferenceModalBox > .boxBottom > .switch > input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+.jobPreferenceModal > .jobPreferenceModalBox > .boxBottom > .switch > input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }

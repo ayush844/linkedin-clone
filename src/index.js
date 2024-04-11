@@ -2,7 +2,6 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { Provider } from 'react-redux';
 import { store } from './app/store';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
@@ -13,6 +12,7 @@ import Jobs from './Pages/Jobs';
 import Messages from './Pages/Messages';
 import Notification from './Pages/Notification';
 import MyConnections from './Pages/MyConnections';
+import MyJobs from './Pages/MyJobs';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
@@ -25,6 +25,7 @@ const router = createBrowserRouter(
       <Route path='networks' element={<MyNetworks />}/>
       <Route path='networks/myConnections' element={<MyConnections />}/>
       <Route path='jobs' element={<Jobs />}/>
+      <Route path='jobs/myJobs' element={<MyJobs />}/>
       <Route path='messages' element={<Messages />}/>
       <Route path='notification' element={<Notification />}/>
     </Route>

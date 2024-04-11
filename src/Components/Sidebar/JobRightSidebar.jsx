@@ -17,6 +17,9 @@ const JobRightSidebar = () => {
             <JobPosting companyLogo="https://images.unsplash.com/photo-1600105412998-761e184831fe?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" positionName="DevRel Intern" companyName="OMO" location="Pune, Mahrashtra, India"/>
             <JobPosting companyLogo="https://images.unsplash.com/photo-1616323691387-06695064d4cc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" positionName="Product Manager" companyName="Royal Enfield" location="Banglore, Karnataka, India"/>
         </div>
+
+
+
     </div>
   )
 }
