@@ -1,8 +1,22 @@
 import React from 'react'
+import './Notification.css'
+import NotificationRectagle from '../Components/Cards/NotificationRectagle'
 
 const Notification = () => {
   return (
-    <div>Notification</div>
+    <div className='notificationPage'>
+      <div className="notificationContainer">
+        <NotificationRectagle />
+        <NotificationRectagle />
+        <NotificationRectagle />
+        <NotificationRectagle />
+        <NotificationRectagle />
+        <NotificationRectagle />
+        <NotificationRectagle />
+        <NotificationRectagle />
+        <NotificationRectagle />
+      </div>
+    </div>
   )
 }
 

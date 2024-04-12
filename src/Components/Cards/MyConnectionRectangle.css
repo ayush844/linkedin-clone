@@ -6,6 +6,8 @@
     width: 100%;
     border-bottom: 1px solid gray;
 
+    position: relative;
+
 }
 
 .myConnectionRectangle > .myConnectionRectangleInfo{
@@ -69,7 +71,7 @@
     align-items: center;
     justify-content: center;
 
-    position: relative;
+    /* position: relative; */
 }
 
 
