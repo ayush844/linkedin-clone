@@ -1,0 +1,139 @@
+.profileDropdown{
+    width: 20rem;
+    height: fit-content;
+    padding: 0.7rem 0.3rem;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.3rem;
+
+    border: 1px solid lightgray;
+    background-color: white;
+
+    position: absolute;
+    top: 4rem;
+    right: 7rem;
+}
+
+.profileDropdown > .profileDropdownTop{
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+
+} 
+
+.profileDropdown > .profileDropdownTop > .profilePic > .profilePicAvatar{
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 100%;
+    overflow: hidden;
+
+    /* margin-bottom: 1rem; */
+}
+
+.profileDropdown > .profileDropdownTop > .profilePic > .profilePicAvatar > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit; 
+}
+
+.profileDropdown > .profileDropdownTop > .profileInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.profileDropdown > .profileDropdownTop > .profileInfo > .profileName{
+    width: 15rem; 
+    height: auto; 
+    overflow: hidden;
+    position: relative;
+}
+
+.profileDropdown > .profileDropdownTop > .profileInfo > .profileName > h4{
+    margin: 0; 
+    display: -webkit-box;
+    display: -moz-box; 
+    -webkit-line-clamp: 1; 
+    -moz-box-lines: 1; 
+    -webkit-box-orient: vertical; 
+    -moz-box-orient: vertical; 
+    overflow: hidden; 
+
+    color: black;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.profileDropdown > .profileDropdownTop > .profileInfo > .profileDescription{
+    width: 15rem; 
+    height: auto; 
+    overflow: hidden;
+    position: relative;
+}
+
+.profileDropdown > .profileDropdownTop > .profileInfo > .profileDescription > p{
+    margin: 0; 
+    display: -webkit-box;
+    display: -moz-box; 
+    -webkit-line-clamp: 3; 
+    -moz-box-lines: 3; 
+    -webkit-box-orient: vertical; 
+    -moz-box-orient: vertical; 
+    overflow: hidden; 
+
+    color: rgba(0, 0, 0, 0.6);
+
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+
+.profileDropdown > button{
+    background-color: transparent;
+    padding: 0.2rem 0.4rem;
+    font-size: 1.1rem;
+
+    border-radius: 1.6rem;
+
+    border-top: none;
+    border-bottom: none;
+
+    border: 1px solid #3468C0;
+
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    color: #3468C0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.3s ease-in-out;
+
+    cursor: pointer;
+}
+
+.profileDropdown > button:hover{
+    background-color: #DFF5FF;
+}
+
+.profileDropdown > .divider{
+    border-bottom: 1px solid black;
+    width: 100%;    
+}
+
+.profileDropdown > p.signOut{
+    color: rgba(0, 0, 0, 0.7);
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.profileDropdown > p.signOut:hover{
+    text-decoration: underline;
+}

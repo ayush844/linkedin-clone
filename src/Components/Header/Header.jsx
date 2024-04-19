@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Header.css'
 import SearchIcon from '@mui/icons-material/Search';
 import HeaderOptions from './HeaderOptions';
+import ProfileDropdown from '../Dropdown/ProfileDropdown';
 
 
 
 const Header = () => {
+
+  const [openProfileOptions, setOpenProfileOptions] = useState(false);
+
   return (
     <div className='header'>
       <div className="header_left">
@@ -18,13 +22,16 @@ const Header = () => {
 
       <div className="header_right">
         <HeaderOptions />
-        <div className="avatar">
+        <div className="avatar" onClick={() => setOpenProfileOptions((prev) => !prev)}>
           <div className="avatar_image">
-            <img src="https://cdn-icons-png.flaticon.com/512/6596/6596121.png" alt="me" />
+            <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="me" />
           </div>
           <span>me</span>
         </div>
       </div>
+      {openProfileOptions 
+      && 
+      <ProfileDropdown setOpenProfileOptions={setOpenProfileOptions} openProfileOptions={openProfileOptions} />}
     </div>
   )
 }
