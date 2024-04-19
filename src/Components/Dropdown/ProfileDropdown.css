@@ -92,8 +92,11 @@
     font-weight: 400;
 }
 
+.profileDropdown > a{
+    text-decoration: none;
+}
 
-.profileDropdown > button{
+.profileDropdown > a > button{
     background-color: transparent;
     padding: 0.2rem 0.4rem;
     font-size: 1.1rem;
@@ -117,9 +120,13 @@
     transition: 0.3s ease-in-out;
 
     cursor: pointer;
+
+    width: 100%;
 }
 
-.profileDropdown > button:hover{
+
+
+.profileDropdown > a > button:hover{
     background-color: #DFF5FF;
 }
 

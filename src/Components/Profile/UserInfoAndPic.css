@@ -1,0 +1,238 @@
+.UserInfoAndPic{
+    width: 100%;
+    height: fit-content;
+
+    border-radius: 7px;
+    border: 1px solid lightgray;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+
+    position: relative;
+}
+
+.UserInfoAndPic > .editBtn{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.5rem;
+    background-color: white;
+
+    cursor: pointer;
+
+    color: rgb(12, 12, 109);
+
+    border: none;
+}
+
+.UserInfoAndPic > .editBtn:hover{
+    background-color: whitesmoke;
+}
+
+.UserInfoAndPic > .UserInfoAndPicTop{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    justify-content: start;
+
+    border: 1px solid lightgray;
+    border-bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.UserInfoAndPic > .UserInfoAndPicTop > img{
+    margin-bottom: -100px;
+    width: 100%;
+    height: 13rem;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.UserInfoAndPic > .UserInfoAndPicTop > .profileAvatar{
+    width: 11rem;
+    height: 11rem;
+    border-radius: 100%;
+    overflow: hidden;
+    padding: 4px;
+    /* border: 2px solid black; */
+    margin-bottom: 0.25rem;
+    margin-left: 3rem;
+    background-color: white;
+}
+
+
+.UserInfoAndPic > .UserInfoAndPicTop > .profileAvatar > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit; 
+}
+
+
+.UserInfoAndPic > .nameEducationInfoLocation{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+    padding: 0.5rem 2rem;
+
+    padding-left: 3rem;
+
+}
+
+
+
+.UserInfoAndPic > .nameEducationInfoLocation > .nameInfoLocaton{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+
+.UserInfoAndPic > .nameEducationInfoLocation > .nameInfoLocaton > h2{
+    font-size: 1.6rem;
+    font-weight: bold;
+
+    color: black;
+}
+
+
+.UserInfoAndPic > .nameEducationInfoLocation > .nameInfoLocaton > .info{
+    max-width: 60rem;
+    min-width: 50rem;
+} 
+
+.UserInfoAndPic > .nameEducationInfoLocation > .nameInfoLocaton > .info > p{
+    font-size: 1rem;
+    font-weight: 500;
+
+    color: rgba(0, 0, 0, 0.9);
+}
+
+
+.UserInfoAndPic > .nameEducationInfoLocation > .nameInfoLocaton > .locationAndContact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+
+    margin: 1rem 0 0;
+}
+
+
+.UserInfoAndPic > .nameEducationInfoLocation > .nameInfoLocaton > .locationAndContact > span.location{
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.UserInfoAndPic > .nameEducationInfoLocation > .nameInfoLocaton > .locationAndContact > a.contact{
+    text-decoration: none;
+
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: darkblue;
+    
+
+    cursor: pointer;
+}
+
+
+.UserInfoAndPic > .nameEducationInfoLocation > .nameInfoLocaton > .locationAndContact > a.contact:hover{
+    text-decoration: underline;
+}
+
+
+
+.UserInfoAndPic > .nameEducationInfoLocation > .nameInfoLocaton > a.connection{
+    text-decoration: none;
+
+    margin: 1rem 0;
+
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: darkblue;
+    
+
+    cursor: pointer;
+}
+
+
+.UserInfoAndPic > .nameEducationInfoLocation > .nameInfoLocaton > a.connection:hover{
+    text-decoration: underline;
+}    
+
+
+
+
+.UserInfoAndPic > .nameEducationInfoLocation > .education{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    align-items: flex-end;
+}
+
+.UserInfoAndPic > .nameEducationInfoLocation > .education > .editBtn{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.5rem;
+
+    cursor: pointer;
+}
+
+.UserInfoAndPic > .nameEducationInfoLocation > .education > .editBtn:hover{
+    background-color: whitesmoke;
+}
+
+
+.UserInfoAndPic > .nameEducationInfoLocation > .education > .educationInfo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.UserInfoAndPic > .nameEducationInfoLocation > .education > .educationInfo > .logo{
+    width: 6rem;
+    height: 4rem;
+    border-radius: 8px;
+
+    overflow: hidden;
+}
+
+
+.UserInfoAndPic > .nameEducationInfoLocation > .education > .educationInfo > .logo > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit; 
+}
+
+
+.UserInfoAndPic > .nameEducationInfoLocation > .education > .educationInfo > .collegeName > p{
+    font-size: 1rem;
+    font-weight: 800;
+}

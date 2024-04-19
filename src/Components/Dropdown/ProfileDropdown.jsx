@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './ProfileDropdown.css'
+import { Link } from 'react-router-dom'
 
 const ProfileDropdown = ({setOpenProfileOptions}) => {
   return (
@@ -20,7 +21,9 @@ const ProfileDropdown = ({setOpenProfileOptions}) => {
                 </div>
             </div>
         </div>
+        <Link to="/me">
         <button className='viewProfileBtn' onClick={() => setOpenProfileOptions((prev) => !prev)}>View Profile</button>
+        </Link>
         <div className="divider"></div>
         <p className='signOut' onClick={() => setOpenProfileOptions((prev) => !prev)}>Sign Out</p>
     </div>
