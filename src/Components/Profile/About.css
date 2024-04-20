@@ -1,0 +1,87 @@
+.About{
+    
+    height: fit-content;
+
+    border-radius: 7px;
+    border: 1px solid lightgray;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+
+    position: relative;
+
+    margin-bottom: 0.5rem;
+
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: space-between; 
+
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    
+    width: 100%;
+}
+
+.About > .aboutHeading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 2rem 2rem;
+
+    width: 100%;
+
+}
+
+.About > .aboutHeading > h3{
+    font-size: 1.7rem;
+    font-weight: bold;
+
+    margin-left: 1.7rem;
+    
+}
+
+.About > .aboutHeading > .editBtn{
+    margin-right: 2rem;
+
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2rem;
+    background-color: white;
+
+    cursor: pointer;
+
+    color: black;
+
+    border: none;
+}
+
+
+.About > .aboutHeading > .editBtn:hover{
+    background-color: whitesmoke;
+}
+
+
+.About > .aboutDescription{
+    padding: 1rem 0;
+}
+
+
+.About > .aboutDescription > p{
+    line-height: 1.3;
+    font-size: 1.2rem;
+    font-weight: 300;
+}

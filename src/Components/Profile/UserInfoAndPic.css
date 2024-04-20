@@ -11,6 +11,9 @@
     background-color: white;
 
     position: relative;
+
+    margin-bottom: 0.5rem;
+
 }
 
 .UserInfoAndPic > .editBtn{
@@ -178,8 +181,6 @@
 .UserInfoAndPic > .nameEducationInfoLocation > .nameInfoLocaton > a.connection:hover{
     text-decoration: underline;
 }    
-
-
 
 
 .UserInfoAndPic > .nameEducationInfoLocation > .education{
