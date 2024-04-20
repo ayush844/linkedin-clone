@@ -4,6 +4,7 @@ import './Profile.css'
 import UserInfoAndPic from '../Components/Profile/UserInfoAndPic'
 import About from '../Components/Profile/About'
 import Activity from '../Components/Profile/Activity'
+import Experience from '../Components/Profile/Experience'
 
 const Profile = () => {
   return (
@@ -12,6 +13,7 @@ const Profile = () => {
         <UserInfoAndPic />
         <About />
         <Activity />
+        <Experience />
       </div>
     </div>
   )
