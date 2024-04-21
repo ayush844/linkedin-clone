@@ -1,0 +1,55 @@
+.SkillInfo{
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.SkillInfo > .SkillInfoPost{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 2rem;
+}
+
+.SkillInfo > .SkillInfoPost > h3{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.SkillInfo > .SkillInfoPost > .editBtn{
+    margin-right: 2rem;
+
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2.5rem;
+    background-color: white;
+
+    cursor: pointer;
+
+    color: black;
+
+    border: none;
+}
+
+
+.SkillInfo > .SkillInfoPost > .editBtn:hover{
+    background-color: whitesmoke;
+}

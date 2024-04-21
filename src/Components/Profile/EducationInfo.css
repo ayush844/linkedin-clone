@@ -1,0 +1,110 @@
+
+.EducationInfo{
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.EducationInfo > .EducationInfoPost{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    padding: 0 2rem;
+}
+
+
+.EducationInfo > .EducationInfoPost > .eduDescription{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+
+.EducationInfo > .EducationInfoPost > .eduDescription > .imgBox{
+    min-width: 6rem;
+    width: 6rem;
+    height: 5rem;
+    border-radius: 8px;
+
+    overflow: hidden;
+    margin-top: 0.5rem;
+}
+
+.EducationInfo > .EducationInfoPost >  .eduDescription > .imgBox > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit; 
+}
+
+
+
+.EducationInfo > .EducationInfoPost > .eduDescription > .eduTitle{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 0.2rem;
+}
+
+
+.EducationInfo > .EducationInfoPost > .eduDescription > .eduTitle > h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.EducationInfo > .EducationInfoPost > .eduDescription > .eduTitle > h6{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.EducationInfo > .EducationInfoPost > .eduDescription > .eduTitle > p{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+.EducationInfo > .EducationInfoPost > .eduDescription > .eduDetailDescription{
+    min-width: 60rem;
+    width: 65rem; 
+    height: auto; 
+    overflow: hidden;
+}
+
+.EducationInfo > .EducationInfoPost > .editBtn{
+    margin-right: 2rem;
+
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2.5rem;
+    background-color: white;
+
+    cursor: pointer;
+
+    color: black;
+
+    border: none;
+
+}
+
+.EducationInfo > .EducationInfoPost > .editBtn:hover{
+    background-color: whitesmoke;
+}

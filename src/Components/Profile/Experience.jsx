@@ -12,9 +12,6 @@ const Experience = () => {
         <div className="ExperienceTop">
             <h2>Experience</h2>
             <div className="ExperienceTopBtn">
-                {/* <div className="editBtn">
-                    <EditIcon />
-                </div> */}
                 <div className="editBtn">
                     <AddIcon  style={{fontSize: '3rem'}}/>
                 </div>

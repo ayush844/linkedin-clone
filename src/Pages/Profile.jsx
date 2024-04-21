@@ -5,6 +5,8 @@ import UserInfoAndPic from '../Components/Profile/UserInfoAndPic'
 import About from '../Components/Profile/About'
 import Activity from '../Components/Profile/Activity'
 import Experience from '../Components/Profile/Experience'
+import Education from '../Components/Profile/Education'
+import Skills from '../Components/Profile/Skills'
 
 const Profile = () => {
   return (
@@ -14,6 +16,8 @@ const Profile = () => {
         <About />
         <Activity />
         <Experience />
+        <Education />
+        <Skills />
       </div>
     </div>
   )
