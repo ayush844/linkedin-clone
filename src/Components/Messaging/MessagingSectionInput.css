@@ -1,0 +1,53 @@
+.messageForm{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    gap: 2rem;
+
+    width: 90%;
+
+    position: sticky;
+    bottom: 0;
+
+    height: 4rem;
+
+    padding: 0.7rem 3rem;
+
+    border-top: 2px solid rgba(0, 0, 0, 0.9);
+
+    background-color: white;
+    z-index: 10;
+}
+
+.messageForm > input{
+    width: 40rem;
+
+    font-size: 1rem;
+
+    padding: 0.6rem 0.7rem;
+
+    background-color: whitesmoke;
+
+    border-radius: 10px;
+
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+
+.messageForm > button{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    background-color: #DFF5FF;
+
+    color: #1C1678;
+}

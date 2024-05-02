@@ -1,0 +1,33 @@
+.messagesPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+.messagesPage > .messagingBox{
+    background-color: white;
+    width: 80rem;
+    height: 40rem;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+
+    display: flex;
+
+    flex-direction: column;
+
+    overflow: hidden;
+
+}
+
+
+.messagesPage > .messagingBox > .nameAndMessages{
+    display: flex;
+
+    overflow-y: auto;
+
+    position: relative;
+}

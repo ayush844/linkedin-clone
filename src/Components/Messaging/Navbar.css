@@ -1,0 +1,34 @@
+.messagingNavbar{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: start;
+
+    width: 100%;
+
+    padding: 1rem 2rem;
+    
+    border-bottom: 1px solid gray;
+}
+
+
+.messagingNavbar > .searchForm{
+    background-color: rgb(223, 245, 255);
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+.messagingNavbar > .searchForm > input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+
+    font-size: 0.9rem;
+
+    width: 15rem;
+}

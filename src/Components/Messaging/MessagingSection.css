@@ -1,0 +1,16 @@
+.MessagingSection{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    width: 70%;
+
+    overflow: hidden;
+
+    overflow-y: auto;
+
+    height: 100%;
+
+    position: relative;
+}

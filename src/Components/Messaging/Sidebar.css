@@ -1,0 +1,15 @@
+.messagingSidebar{
+    display: flex;
+    flex-direction: column;
+
+    width: 30%;
+
+
+    overflow-y: auto;
+
+    overflow-x: hidden;
+
+    border-right: 2px solid black;
+
+    min-height: 33.8rem;
+}

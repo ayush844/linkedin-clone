@@ -1,0 +1,15 @@
+.MessagingSectionNavbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.5rem 0.6rem;
+
+    border-bottom: 3px solid rgba(0, 0, 0, 0.6);
+
+    position: sticky;
+    top: 0;
+
+    background-color: white;
+    z-index: 10;
+}
