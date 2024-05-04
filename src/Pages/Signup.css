@@ -1,0 +1,191 @@
+.Login{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f3f2ef;
+
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Login > .loginBox{
+    background-color: white;
+    min-width: 20vw;
+    max-width: 30vw;
+    height: fit-content;
+    min-height: 30vh;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1rem;
+
+    padding: 2rem 2rem;
+
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+.Login > .loginBox > .logoBox{
+    width: 7rem;
+    height: 7rem;
+}
+
+.Login > .loginBox > .logoBox > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.Login > .loginBox > h2{
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.Login > .loginBox > .loginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 1rem;
+    gap: 1.4rem;
+}
+
+.Login > .loginBox > .loginForm > .inputField{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+
+    align-items: start;
+
+
+}
+
+.Login > .loginBox > .loginForm > .inputField > label{
+    font-size: 1.15rem;
+    font-weight: 100;
+}
+
+
+.Login > .loginBox > .loginForm > .inputField > input{
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+    outline: none;
+
+    width: 18rem;
+}
+
+
+.Login > .loginBox > .loginForm > button.loginBtn{
+    background-color: transparent;
+    padding: 0.7rem 2rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+
+    border-radius: 1.6rem;
+
+    border-top: none;
+    border-bottom: none;
+
+    border: 2px solid #3468C0;
+
+    color: #3468C0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    transition: 0.3s ease-in-out;
+
+    cursor: pointer;
+
+}
+
+.Login > .loginBox > .loginForm > button.loginBtn:hover{
+    background-color: #DFF5FF;
+}
+
+
+.Login > .loginBox > .divider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+}
+
+
+.Login > .loginBox > .divider > span.horizontal{
+    width: 8rem;
+    height: 1px;
+    border-bottom: 1px solid black;
+}
+
+
+.Login > .loginBox > .divider > span.or{
+    font-size: 1.5rem;
+}
+
+.Login > .loginBox > button.googleBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 1.2rem;
+    border-radius: 2rem;
+    border-top: none;
+    border-bottom: none;
+
+    border: 2px solid black;
+
+    gap: 0.5rem;
+
+    background-color: white;
+
+    cursor: pointer;
+
+    transition: 0.2s ease-in-out;
+}
+
+
+.Login > .loginBox > button.googleBtn > .googleLogo{
+    width: 2rem;
+    height: 2rem;
+}
+
+
+.Login > .loginBox > button.googleBtn > .googleLogo > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.Login > .loginBox > button.googleBtn > span{
+    font-size: 1rem;
+
+    font-weight: 600;
+}
+
+.Login > .loginBox > p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.Login > .loginBox > p > a{
+    text-decoration: none;
+    color: rgb(6, 6, 95);
+
+}
+
+.Login > .loginBox > p > a:hover{
+    text-decoration: underline;
+}

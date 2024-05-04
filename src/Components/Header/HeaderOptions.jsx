@@ -13,7 +13,7 @@ import { NavLink } from 'react-router-dom';
 const HeaderOptions = () => {
   return (
     <div className='header_options'>
-        <NavLink to='/' className={({isActive})=>`headerOptionLink ${isActive ? "activeHeaderOptionLink":""}`}>
+        <NavLink to='/home' className={({isActive})=>`headerOptionLink ${isActive ? "activeHeaderOptionLink":""}`}>
           <div className="box">
             <HomeIcon className='icon' />
             <span style={{textDecoration: 'none'}}>Home</span>

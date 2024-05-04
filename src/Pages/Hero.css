@@ -1,0 +1,83 @@
+.Hero{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f3f2ef;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.Hero > .HeroBox{
+    background-color: white;
+    min-width: 60vw;
+    max-width: 80vw;
+    height: fit-content;
+    min-height: 50vh;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 3rem;
+
+    padding: 5rem 4rem;
+
+}
+
+.Hero > .HeroBox > .logoContainer{
+    width: 10rem;
+    height: 10rem;
+
+}
+
+.Hero > .HeroBox > .logoContainer > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.Hero > .HeroBox > h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.Hero > .HeroBox > p{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+
+.Hero > .HeroBox > a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.Hero > .HeroBox > a > button{
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    background-color: #0F2167;
+
+    border: none;
+    outline: none;
+
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.15s ease-in-out;
+}
+
+
+.Hero > .HeroBox > a > button:hover{
+    background-color: #4CB9E7;
+    color: black;
+}
+
+
