@@ -23,3 +23,24 @@
     background-color: whitesmoke;
     
 }
+
+
+
+@media screen and (max-width: 600px) {
+    .reactOptionBox{
+        gap: 0.4rem;
+        padding: 0.7rem 0.35rem 0rem;
+    }
+    
+    .reactOptionBox .option{
+        gap: 0.1rem;
+    
+        padding: 0.3rem 0.7rem;
+
+        font-size: 0.5rem;
+    }
+
+    .reactOptionBox .option span{
+        display: none;
+    }
+}

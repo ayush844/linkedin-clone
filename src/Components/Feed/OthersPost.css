@@ -47,14 +47,14 @@
 .othersPost .authorInfo .author-avatar-div{
     width: 4rem;
     height: 4rem;
-    border-radius: 50%;
+    border-radius: 100%;
     overflow: hidden;
 }
 
 .othersPost .authorInfo .author-avatar-div img{
     width: 100%;
     height: 100%;
-    border-radius: inherit;
+    border-radius: 100%;
     object-fit: cover;
 }
 
@@ -66,4 +66,93 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.6;
+}
+
+
+@media screen and (max-width: 1600px) {
+    .othersPost{
+
+        padding: 1.5rem 0.8rem;
+
+        min-width: 70vw;
+
+        max-width: 80vw;
+    }
+    
+    .othersPost .authorInfo{
+        gap: 0.7rem;
+    
+        margin-bottom: 1.25rem;
+    }
+    
+    .othersPost .authorInfo .authorNameAndProfession{
+        gap: 0.1rem;
+
+        width: 15rem; 
+    }
+    
+    .othersPost .authorInfo .authorNameAndProfession h3{
+        font-size: 1.05rem;
+    }
+    
+    .othersPost .authorInfo .authorNameAndProfession p{
+        font-size: 0.6rem;
+    }
+    
+    .othersPost .authorInfo .author-avatar-div{
+        width: 3rem;
+        height: 3rem;
+    }
+
+    
+    .othersPost .postContent p{
+        font-size: 0.8rem;
+        font-weight: 400;
+        line-height: 1.2;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .othersPost{
+
+        padding: 1rem 0.5rem;
+
+        min-width: 70vw;
+
+        max-width: 80vw;
+    }
+    
+    .othersPost .authorInfo{
+        gap: 0.4rem;
+    
+        margin-bottom: 1rem;
+    }
+    
+    .othersPost .authorInfo .authorNameAndProfession{
+        gap: 0.05rem;
+
+        width: 10rem; 
+    }
+    
+    .othersPost .authorInfo .authorNameAndProfession h3{
+        font-size: 0.9rem;
+    }
+    
+    .othersPost .authorInfo .authorNameAndProfession p{
+        font-size: 0.5rem;
+    }
+    
+    .othersPost .authorInfo .author-avatar-div{
+        width: 2.7rem;
+        height: 2.7rem;
+    }
+
+    
+    .othersPost .postContent p{
+        font-size: 0.7rem;
+        font-weight: 400;
+        line-height: 1.15;
+    }
 }

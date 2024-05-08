@@ -140,3 +140,11 @@
 .leftSidebar .sidebar_bottom .sidebar_recentItems p:hover{
     text-decoration: underline;
 }
+
+
+
+@media screen and (max-width: 1600px) {
+    .leftSidebar{
+        display: none;
+    }
+}
