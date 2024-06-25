@@ -38,10 +38,27 @@
     gap: 0.3rem;
 }
 
-.myConnectionRectangle > .myConnectionRectangleInfo > .nameAndBio > h3{
+.myConnectionRectangle > .myConnectionRectangleInfo > .nameAndBio > .nameAndBioName{
+    width: 20rem; 
+    height: auto; 
+    overflow: hidden;
+    position: relative;
+}
+
+.myConnectionRectangle > .myConnectionRectangleInfo > .nameAndBio > .nameAndBioName > h3{
     font-size: 1.2rem;
     font-weight: 900;
     cursor: pointer;
+
+    margin: 0; 
+    display: -webkit-box;
+    display: -moz-box; 
+    -webkit-line-clamp: 1; 
+    -moz-box-lines: 1; 
+    -webkit-box-orient: vertical; 
+    -moz-box-orient: vertical; 
+    overflow: hidden; 
+
 }
 
 
@@ -141,4 +158,62 @@
 
 .myConnectionRectangle > .messageAndRemove > .menu-options:hover{
     background-color: aliceblue;
+}
+
+
+
+@media screen and (max-width: 1800px){
+
+    .myConnectionRectangle > .myConnectionRectangleInfo > .nameAndBio > .nameAndBioBio{
+        display: none;
+    }
+    
+
+}
+
+@media screen and (max-width: 800px){
+    .myConnectionRectangle > .myConnectionRectangleInfo > .nameAndBio > .nameAndBioName{
+        width: 10rem; 
+    }
+    
+}
+
+
+@media screen and (max-width: 600px){
+    .myConnectionRectangle > .messageAndRemove > button{
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 450px){
+    .myConnectionRectangle > .myConnectionRectangleInfo > .nameAndBio > .nameAndBioName > h3{
+        font-size: 1rem;
+        font-weight: 800;
+    }        
+
+    .myConnectionRectangle > .myConnectionRectangleInfo > .myConnectionRectangleImage{
+        width: 3rem;
+        height: 3rem;
+    }
+
+
+    .myConnectionRectangle > .myConnectionRectangleInfo{
+        gap: 0.5rem;
+    }
+
+    .myConnectionRectangle > .messageAndRemove > .horizontalDots{
+        font-size: 0.5rem;
+        padding: 0.5rem;
+    }
+
+
+    .myConnectionRectangle > .myConnectionRectangleInfo > .nameAndBio > .nameAndBioName{
+        width: 7rem; 
+    }
+    
+
+    
+
 }
