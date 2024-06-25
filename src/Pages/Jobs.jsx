@@ -5,10 +5,12 @@ import JobRightSidebar from '../Components/Sidebar/JobRightSidebar'
 
 const Jobs = () => {
   return (
-    <>
+    <main style={{
+    width: "-webkit-fill-available"
+}}>
       <JobLeftSidebar />
       <JobRightSidebar />
-    </>
+    </main>
   )
 }
 

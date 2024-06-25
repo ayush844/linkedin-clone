@@ -96,3 +96,52 @@
     
 }
 
+
+
+
+@media screen and (max-width: 1600px){
+    .jobLeftSection{
+        width: 100%;
+        min-width: 19rem;
+        display: flex;
+        align-items: center;
+        border-radius: 0;
+    }
+
+    .jobLeftSection > .jobLeft{
+        padding: 1rem 1rem 1rem 1rem;
+        width: 90%;
+    }
+
+
+    .jobLeftSection > button{
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .networkLeft{
+        width: -webkit-fill-available;
+        min-width: 19rem;
+        display: flex;
+        align-items: flex-start;
+        border-radius: 0;
+    }
+
+    .networkLeft > a{
+        width: -webkit-fill-available;
+    }
+
+    .networkLeft > a > .networkLeftConnectionBox{
+        width: -webkit-fill-available;
+        display: flex;
+        justify-content: space-between;
+
+        padding: 0.5rem 1rem;
+    
+        border-radius: 0;
+        
+    }
+    
+}

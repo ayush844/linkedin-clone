@@ -1,7 +1,5 @@
 import React from 'react'
 
-import CloseIcon from '@mui/icons-material/Close';
-
 import './JobPosting.css'
 
 
@@ -23,9 +21,6 @@ const JobPosting = ({companyLogo, positionName, companyName, location}) => {
                     {location}
                 </p>
             </div>
-        </div>
-        <div className="jobCross">
-            <CloseIcon />
         </div>
     </div>
   )

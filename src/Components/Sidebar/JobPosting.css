@@ -67,19 +67,54 @@
 }
 
 
-.JobPosting > .jobCross{
-    width: 3rem;
-    height: 3rem;
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-    cursor: pointer;
+@media screen and (max-width: 600px){
 
-    font-size: 2rem;
-}
 
-.JobPosting > .jobCross:hover{
-    background-color: whitesmoke;
+    .JobPosting{
+        justify-content: center;
+    }
+    
+
+    .JobPosting > .jobInfo > .jobLogo{
+        display: none;
+    
+    }
+
+    .JobPosting > .jobInfo > .positionCompanyAndLocation{
+        width: 15rem; 
+        height: auto; 
+        overflow: hidden;
+        position: relative;
+    }
+
+    .JobPosting > .jobInfo > .positionCompanyAndLocation > p.jobPosition{
+        display: -webkit-box;
+        display: -moz-box; 
+        -webkit-line-clamp: 2; 
+        -moz-box-lines: 2; 
+        -webkit-box-orient: vertical; 
+        -moz-box-orient: vertical; 
+        overflow: hidden; 
+    }
+
+    .JobPosting > .jobInfo > .positionCompanyAndLocation > p.company{
+        display: -webkit-box;
+        display: -moz-box; 
+        -webkit-line-clamp: 1; 
+        -moz-box-lines: 1; 
+        -webkit-box-orient: vertical; 
+        -moz-box-orient: vertical; 
+        overflow: hidden; 
+    }
+
+    .JobPosting > .jobInfo > .positionCompanyAndLocation > p.location{
+        display: -webkit-box;
+        display: -moz-box; 
+        -webkit-line-clamp: 1; 
+        -moz-box-lines: 1; 
+        -webkit-box-orient: vertical; 
+        -moz-box-orient: vertical; 
+        overflow: hidden; 
+    }
 }

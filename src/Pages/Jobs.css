@@ -1,0 +1,18 @@
+main{
+    width: -webkit-fill-available;
+}
+
+@media screen and (max-width: 1600px){
+    main{
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+} 
+
+
+@media screen and (max-width: 500px){
+    main{
+        align-items: center;
+    }
+}

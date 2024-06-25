@@ -29,9 +29,9 @@ const JobPreferenceModal = ({onClose}) => {
             </div>
             <div className="boxBottom">
                 <span>Open To Work</span>
-                <label class="switch">
+                <label className="switch">
                     <input type="checkbox" />
-                    <span class="slider"></span>
+                    <span className="slider"></span>
                 </label>
             </div>
             
