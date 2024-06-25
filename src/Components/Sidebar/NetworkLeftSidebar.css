@@ -73,3 +73,56 @@
     font-size: 1.2rem;
     color: gray;
 }
+
+
+@media screen and (max-width: 1600px){
+    .networkLeft{
+        width: 100%;
+        min-width: 19rem;
+        display: flex;
+        align-items: flex-start;
+        border-radius: 0;
+    }
+
+    .networkLeft > a{
+        width: -webkit-fill-available;
+    }
+
+    .networkLeft > a > .networkLeftConnectionBox{
+        width: -webkit-fill-available;
+        display: flex;
+        justify-content: space-between;
+
+        padding: 0.5rem 1rem;
+    
+        border-radius: 0;
+        
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .networkLeft{
+        width: -webkit-fill-available;
+        min-width: 19rem;
+        display: flex;
+        align-items: flex-start;
+        border-radius: 0;
+    }
+
+    .networkLeft > a{
+        width: -webkit-fill-available;
+    }
+
+    .networkLeft > a > .networkLeftConnectionBox{
+        width: -webkit-fill-available;
+        display: flex;
+        justify-content: space-between;
+
+        padding: 0.5rem 1rem;
+    
+        border-radius: 0;
+        
+    }
+    
+}

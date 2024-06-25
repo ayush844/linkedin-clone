@@ -1,0 +1,25 @@
+main{
+    display: flex;
+    gap: 1rem;
+}
+
+
+@media screen and (max-width: 1600px){
+    main{
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+        align-items: center;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+} 
+
+
+@media screen and (max-width: 500px){
+    main{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        align-items: center;
+    }
+}

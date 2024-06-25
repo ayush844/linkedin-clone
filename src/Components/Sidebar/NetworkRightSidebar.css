@@ -29,4 +29,34 @@
     align-items: center;
     flex-wrap: wrap;
     overflow-x: hidden;
+
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 1600px){
+    .networkRight{
+        width: -webkit-fill-available;
+        margin-top: 1rem;
+        margin-right: 0rem;
+
+        padding: 2rem 1rem;
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        gap: 2rem;
+
+
+
+    
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .networkRight{
+        width: min-content;
+    }
 }
